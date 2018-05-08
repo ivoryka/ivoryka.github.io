@@ -1,0 +1,103 @@
+	@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+	
+	body{
+		background: url("bg.jpg") no-repeat fixed;
+		font-family: 'NanumGothic';
+		color: #333333;
+	}
+	
+	ul{
+	
+	}
+	
+	#container{
+		width: 1000px;
+		background-color: white;
+		border-style: hidden;
+		margin: 0px auto;
+		padding: 10px;
+		overflow: auto;
+	}
+	
+	#header{
+		padding: 20px;
+		text-align: center;
+	}
+	
+	#frame{
+		border: solid 1px #66797F;
+		overflow: auto;
+	}
+	
+	#sidebar{
+		list-style-type: none;
+		background-color: #ccf2ff;
+		float: left;
+		margin: 0px;
+		padding: 0px;
+		width: 170px;
+		border-right: solid 10px #66797F;
+	}
+	
+	#sidebar ul{
+
+		margin: 0px;
+		margin-left: -40px;
+	}
+	
+	#sidebar a{
+		display: block;
+		color: #404040;
+		width: 170px;
+		height: 30px;
+		padding-top: 10px;
+		text-decoration: none;
+		font-weight: bold;
+		border-bottom: 1px solid;
+	}
+	
+	#sidebar a:hover, a:active{
+		background-color: #66797F;
+		color: white;
+	}
+	
+	.nowlink{
+		background-color: #66797F;
+	}
+	
+	#content{
+		float: right;
+		width: 745px;
+		background-color: white;
+		padding: 30px;
+	}
+	
+	#footer{
+		text-align: center;
+		float: bottom;
+		border-top: 1px;
+	}
+	
+	.headericon{
+		width: 150px;
+	}
+	
+	.titleicon{
+		width: 25px;
+	}
+	
+	.title{
+		color: #2a2aa2;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	
+	.subt{
+		color: #2a2aa2;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.logo{
+		width: 100px;
+	}
