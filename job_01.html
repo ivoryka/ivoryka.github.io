@@ -1,7 +1,7 @@
 <!doctype html>
 <HEAD>
 <title>Jobs :: The Sims 3 Archive</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css?ver=1">
 <script language="javaScript">
 
 function toText(n)
@@ -42,7 +42,7 @@ function toText(n)
 		<LI><a href="index.html">종족</a>
 		<LI><a href="index.html">특성</a>
 		<LI><a href="index.html">기술</a>
-		<LI><a href="index.html" class="nowlink"> 직업 </a>
+		<LI><a href="job.html" class="nowlink"> 직업 </a>
 			<UL id="submenu">
 				<LI><a href="job_01.html">일반직</a>
 				<LI><a href="job_02.html">전문직</a>
@@ -66,10 +66,29 @@ function toText(n)
 	<a class="buttons" onclick="toText(text1)">오리지널</a><BR>
 		<OL id="text1">
 			<LI>과학
-				<p id="expbox">
+			
+				<p id="explbox">
 				과학은 반론의 여지가 없는 진실이며 자연에 대한 존경입니다. 흙에 대한 지식과 낚시에 대한 통찰력이 이 직업군에서 성공하는데 큰 도움이 됩니다. 또한 손재주와 감전 위험을 무릅쓰려는 용기가 있어도 나쁘지 않습니다.
 				</p>
-				<p>필요 기술: 원예, 낚시, 손재주</p>	
+				<p>필요 기술: 원예, 낚시, 손재주</p>
+				
+				<table id="jobtable">
+				<tr>
+					<th>직업 레벨</th>
+					<th>직업명</th>
+					<th>성취도</th>
+					<th>시급</th>
+					<th>출근 시간</th></tr>
+				<tr>
+					<td>1</td>
+					<td>실험 대상</td>
+					<td>기분, 원예(4)</td>
+					<td>44</td>
+					<td>월, 화, 수, 목, 금 09:00~14:30</td>
+				</tr>
+				
+				</table>
+				
 			<LI>군대
 			<LI>범죄
 			<LI>법집행
